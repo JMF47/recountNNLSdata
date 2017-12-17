@@ -1,6 +1,6 @@
 Package: recountNNLSdata
 Title: DATA PACKAGE FOR recountNNLS TO FUNCTION
-Version: 0.99.0
+Version: 0.1.0
 Maintainer: Jack Fu <jmfu@jhsph.edu>
 Author: Jack Fu <jmfu@jhsph.edu>
 Description: Necessary annotation to run recountNNLS.
