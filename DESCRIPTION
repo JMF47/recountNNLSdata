@@ -1,12 +1,13 @@
 Package: recountNNLSdata
-Title: DATA PACKAGE FOR recountNNLS TO FUNCTION
-Version: 0.1.0
+Title: PRE-COMPUTED MODEL MATRICES USED BY recountNNLS FOR TX ABUNDANCE ESTIMATE.
+Version: 0.99.0
 Maintainer: Jack Fu <jmfu@jhsph.edu>
 Author: Jack Fu <jmfu@jhsph.edu>
-Description: Necessary annotation to run recountNNLS.
-Depends: R (>= 3.3.1),
+Description: Pre-computed model matrices required by recountNNLS to estimate transcript abundances using only summary coverage statistics.
+Depends: R (>= 3.4),
 Imports:
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+biocViews: ExperimentData, TechnologyData

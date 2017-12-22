@@ -1,0 +1,16 @@
+---
+author: "Jack Fu"
+date: "12-21-2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::knitr}
+  %\VignetteIndexEntry{recountNNLSdata}
+  %\usepackage[UTF-8]{inputenc}
+---
+
+## Overview
+
+This is a companion datapackage to the package *recountNNLS* package.
+It contains a set of pre-computed features and model matrices to aid in the
+computation of transcript abundances using *recountNNLS*. Currently the 
+pre-computed read lengths are 37bp, 50bp, 75bp, 100bp, and 150bp.
