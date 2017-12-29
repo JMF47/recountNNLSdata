@@ -1,9 +1,9 @@
-#' @title TCGA_Metadata
+#' @title TCGA Metadata
 #' @name tcga_meta
 #' @description This is a \code{data.frame} containing the meta information for
 #' TCGA samples that mirror the format output by \code{processPheno} for all
 #' other SRA projects.
-#' @author Jack Fu  \email{jmfu@jhsph.edu}
+#' @author Jack Fu \email{jmfu@jhsph.edu}
 #' @examples
 #' \dontrun{
 #' data(tcga_meta)
@@ -22,7 +22,7 @@ NULL
 #'  \item{\code{locus}}{A locus identifier.}
 #'  \item{\code{gene}}{Gene id, has match in emission probability matrices.}
 #'  }
-#' @author Jack Fu  \email{jmfu@jhsph.edu}
+#' @author Jack Fu \email{jmfu@jhsph.edu}
 #' @examples
 #' \dontrun{
 #' data(g2l)
