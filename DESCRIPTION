@@ -1,10 +1,10 @@
 Package: recountNNLSdata
-Title: PRE-COMPUTED MODEL MATRICES USED BY recountNNLS FOR TX ABUNDANCE ESTIMATE.
-Version: 0.99.2
+Title: PRE-COMPUTED MODEL MATRICES USED BY recountNNLS FOR TX ABUNDANCE ESTIMATE
+Version: 0.99.3
 Maintainer: Jack Fu <jmfu@jhsph.edu>
 Author: Jack Fu <jmfu@jhsph.edu>
 Description: Pre-computed model matrices required by recountNNLS to estimate transcript abundances using only summary coverage statistics.
-Depends: R (>= 3.5),
+Depends: R (>= 3.4),
 Imports:
 Suggests: knitr
 VignetteBuilder: knitr
