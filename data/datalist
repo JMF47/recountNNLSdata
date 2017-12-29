@@ -3,7 +3,6 @@ bins_150
 bins_37
 bins_50
 bins_75
-bins_dj
 g2l
 gff_jx
 matrix_100
@@ -11,5 +10,5 @@ matrix_150
 matrix_37
 matrix_50
 matrix_75
-tx_grl
 tcga_meta
+tx_grl
