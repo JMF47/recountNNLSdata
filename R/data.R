@@ -11,6 +11,41 @@
 #' }
 NULL
 
+#' @title TCGA Metadata
+#' @name tx_info
+#' @description This is a \code{data.frame} containing the meta information for
+#' transcripts and genes of the protein coding trasncripts part of the 
+#' GencodeV25 annotation. It is included to be packaged in rowData of the
+#' created output rse for recountNNLS.
+#' @author Jack Fu \email{jmfu@jhsph.edu}
+#' \describe{
+#'  \item{\code{tx_id}}{Transcript number.}
+#'  \item{\code{tx_name}}{Transcript identifier.}
+#'  \item{\code{gene_id}}{Gene identifier.}
+#'  \item{\code{nexon}}{Number of exons in transcript.}
+#'  \item{\code{tx_len}}{Length of transcript.}
+#'  }
+#' @examples
+#' \dontrun{
+#' data(tx_info)
+#' dim(tx_info)
+#' }
+NULL
+
+#' @title Transcript List:GencodeV25
+#' @name tx_grl
+#' @description This is a \code{GRangesList} object of length 145,455. Each 
+#' entry of the list conveys the full exon structure of the transcript, 
+#' based on the GencdoeV25 reference transcriptome.
+#' @format A \code{GRanges} object.
+#' @author Jack Fu  \email{jmfu@jhsph.edu}
+#' @examples
+#' \dontrun{
+#' data(gff_jx)
+#' gff_jx
+#' }
+NULL
+
 #' @title Gene2Locus
 #' @name g2l
 #' @description This is a \code{data.frame} containing information on which 
@@ -45,19 +80,7 @@ NULL
 #' }
 NULL
 
-#' @title Transcript List:GencodeV25
-#' @name tx_grl
-#' @description This is a \code{GRangesList} object of length 145,455. Each 
-#' entry of the list conveys the full exon structure of the transcript, 
-#' based on the GencdoeV25 reference transcriptome.
-#' @format A \code{GRanges} object.
-#' @author Jack Fu  \email{jmfu@jhsph.edu}
-#' @examples
-#' \dontrun{
-#' data(gff_jx)
-#' gff_jx
-#' }
-NULL
+
 
 #' @title Emission probability matrices:GencodeV25:37bp
 #' @name matrix_37
