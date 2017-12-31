@@ -22,5 +22,5 @@ head(unique(g2l$locus))
 }
 }
 \author{
-Jack Fu  \email{jmfu@jhsph.edu}
+Jack Fu \email{jmfu@jhsph.edu}
 }

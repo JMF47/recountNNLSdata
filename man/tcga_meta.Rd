@@ -2,7 +2,7 @@
 % Please edit documentation in R/data.R
 \name{tcga_meta}
 \alias{tcga_meta}
-\title{TCGA_Metadata}
+\title{TCGA Metadata}
 \description{
 This is a \code{data.frame} containing the meta information for
 TCGA samples that mirror the format output by \code{processPheno} for all
@@ -15,5 +15,5 @@ dim(tcga_meta)
 }
 }
 \author{
-Jack Fu  \email{jmfu@jhsph.edu}
+Jack Fu \email{jmfu@jhsph.edu}
 }
