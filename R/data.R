@@ -11,12 +11,12 @@
 #' }
 NULL
 
-#' @title TCGA Metadata
+#' @title Transcript Metadata:GencodeV25
 #' @name tx_info
 #' @description This is a \code{data.frame} containing the meta information for
 #' transcripts and genes of the protein coding trasncripts part of the 
-#' GencodeV25 annotation. It is included to be packaged in rowData of the
-#' created output rse for recountNNLS.
+#' GencodeV25 annotation. It is to be packaged in rowData of the
+#' output rse from recountNNLS.
 #' @author Jack Fu \email{jmfu@jhsph.edu}
 #' \describe{
 #'  \item{\code{tx_id}}{Transcript number.}

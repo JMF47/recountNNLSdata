@@ -2,12 +2,12 @@
 % Please edit documentation in R/data.R
 \name{tx_info}
 \alias{tx_info}
-\title{TCGA Metadata}
+\title{Transcript Metadata:GencodeV25}
 \description{
 This is a \code{data.frame} containing the meta information for
 transcripts and genes of the protein coding trasncripts part of the 
-GencodeV25 annotation. It is included to be packaged in rowData of the
-created output rse for recountNNLS.
+GencodeV25 annotation. It is to be packaged in rowData of the
+output rse from recountNNLS.
 }
 \examples{
 \dontrun{
