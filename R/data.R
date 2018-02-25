@@ -46,16 +46,59 @@ NULL
 #' }
 NULL
 
-#' @title Gene2Locus
-#' @name g2l
+#' @title Gene2Locus:75
+#' @name g2l_75
 #' @description This is a \code{data.frame} containing information on which 
 #' genes should be processed together when calculating abundance using 
-#' recountNNLS. Genes are combined by overlapping position regardless of strand.
+#' recountNNLS. Genes are combined when they have cross-mapped counts.
+#' This is for 75bp read length (and under) experiments.
 #' @format A \code{matrix} of dimension 19,950x2 containing the information 
 #' linking genes.
 #' \describe{
 #'  \item{\code{locus}}{A locus identifier.}
-#'  \item{\code{gene}}{Gene id, has match in emission probability matrices.}
+#'  \item{\code{gene_id}}{Gene id, has match in emission probability matrices.}
+#'  }
+#' @author Jack Fu \email{jmfu@jhsph.edu}
+#' @examples
+#' \dontrun{
+#' data(g2l)
+#' head(g2l)
+#' head(unique(g2l$locus))
+#' }
+NULL
+
+#' @title Gene2Locus:100
+#' @name g2l_100
+#' @description This is a \code{data.frame} containing information on which 
+#' genes should be processed together when calculating abundance using 
+#' recountNNLS. Genes are combined when they have cross-mapped counts.
+#' This is for 100bp read length experiments.
+#' @format A \code{matrix} of dimension 19,950x2 containing the information 
+#' linking genes.
+#' \describe{
+#'  \item{\code{locus}}{A locus identifier.}
+#'  \item{\code{gene_id}}{Gene id, has match in emission probability matrices.}
+#'  }
+#' @author Jack Fu \email{jmfu@jhsph.edu}
+#' @examples
+#' \dontrun{
+#' data(g2l)
+#' head(g2l)
+#' head(unique(g2l$locus))
+#' }
+NULL
+
+#' @title Gene2Locus:150
+#' @name g2l_150
+#' @description This is a \code{data.frame} containing information on which 
+#' genes should be processed together when calculating abundance using 
+#' recountNNLS. Genes are combined when they have cross-mapped counts.
+#' This is for 150bp read length experiments.
+#' @format A \code{matrix} of dimension 19,950x2 containing the information 
+#' linking genes.
+#' \describe{
+#'  \item{\code{locus}}{A locus identifier.}
+#'  \item{\code{gene_id}}{Gene id, has match in emission probability matrices.}
 #'  }
 #' @author Jack Fu \email{jmfu@jhsph.edu}
 #' @examples
