@@ -1,16 +1,3 @@
-#' @title TCGA Metadata
-#' @name tcga_meta
-#' @description This is a \code{data.frame} containing the meta information for
-#' TCGA samples that mirror the format output by \code{processPheno} for all
-#' other SRA projects.
-#' @author Jack Fu \email{jmfu@jhsph.edu}
-#' @examples
-#' \dontrun{
-#' data(tcga_meta)
-#' dim(tcga_meta)
-#' }
-NULL
-
 #' @title Transcript Metadata:GencodeV25
 #' @name tx_info
 #' @description This is a \code{data.frame} containing the meta information for
